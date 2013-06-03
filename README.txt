@@ -37,10 +37,10 @@ II. Concrete maps
 
 A. The class simple_map, in the namespace waterfront, defines a map implemented
 using a dynamically allocated array. If m is an instance of simple map, a and
-b are horizontal and vertical coordinates within m, and b is a bool, the 
+b are horizontal and vertical coordinates within m, and c is a bool, the 
 value of m[a][b] can be set using the expression
 
-    m[a][b] = b
+    m[a][b] = c
 
 B. The class ball implements a map whose land mass consists of all the cells
 within a certain distance of a specified point. This class is provided as a

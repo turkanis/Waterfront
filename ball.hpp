@@ -25,7 +25,7 @@ class ball : public map_base<ball> {
 public:
     friend class map_base<ball>;
     ball(int cols, int rows, double scale, point center, double diameter)
-        : map_base(cols, rows, scale), center_(center), diameter_(diameter)
+        : map_base<ball>(cols, rows, scale), center_(center), diameter_(diameter)
         { }
 private:
     bool at(int col, int row) const
